@@ -23,6 +23,6 @@ import resolvers from './resolvers'
       credentials: true,
     },
   })
-  await app.listen({ port: 8000 })
+  await app.listen({ port: 8000 });
   console.log('server listening on 8000...')
 })()
